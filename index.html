@@ -214,7 +214,7 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .hero-grid { position: relative; z-index: 1; display: grid; grid-template-columns: 1.02fr .98fr; gap: clamp(1.25rem, 3.5vw, 2.75rem); align-items: center; }
 .hero-who { display: inline-flex; align-items: center; gap: .6rem; padding: .35rem .9rem .35rem .4rem; border: 1px solid var(--border-strong); border-radius: 999px; background: var(--surface); font-weight: 600; font-size: .92rem; }
 .hero-who .brand-mark { width: 26px; height: 26px; border-radius: 50%; font-size: .75rem; }
-.hero-role { margin-top: .75rem; font-family: var(--font-display); font-weight: 600; color: var(--accent); font-size: 1.05rem; }
+.hero-role { margin-top: 0; font-family: var(--font-display); font-weight: 600; color: var(--accent); font-size: 1.05rem; }
 .hero h1 { margin-top: .6rem; font-size: clamp(2.5rem, 5.4vw, 4.4rem); font-weight: 700; letter-spacing: -0.035em; line-height: 1.04; max-width: 15ch; }
 .hero-desc { margin-top: .95rem; color: var(--muted); font-size: 1.125rem; max-width: 46ch; }
 .hero-cta { margin-top: 1.25rem; display: flex; flex-wrap: wrap; gap: .75rem; }
@@ -724,7 +724,6 @@ html.js .skill-card.in .chip, html.js .tools.in .tool { animation: toolin .5s cu
 <section class="hero" id="home" data-tone="blue" aria-labelledby="hero-title">
   <div class="wrap hero-grid">
     <div class="hero-copy">
-      <div class="hero-who"><span class="brand-mark" aria-hidden="true">R</span>Rodiyah Raji-Bola</div>
       <p class="hero-role">Tech &amp; Digital Professional</p>
       <h1 id="hero-title">Building digital experiences with technology, AI &amp; creativity.</h1>
       <p class="hero-desc">I create modern websites, explore AI-powered solutions, automate digital workflows, and develop useful digital products.</p>
@@ -821,8 +820,8 @@ html.js .skill-card.in .chip, html.js .tools.in .tool { animation: toolin .5s cu
 <!-- Scrolling keyword band -->
 <div class="marquee" aria-hidden="true">
   <div class="marquee-track">
-    <div class="marquee-group"><span class="marquee-item" style="--c:#6B7CFF">Web Design</span><span class="marquee-item" style="--c:#A47BF0">AI Tools</span><span class="marquee-item" style="--c:#2BB3BE">Automation</span><span class="marquee-item" style="--c:#F0A24A">Digital Products</span><span class="marquee-item" style="--c:#F0709A">Digital Marketing</span><span class="marquee-item" style="--c:#4FBF72">Social Media</span><span class="marquee-item" style="--c:#6B7CFF">Web Design</span><span class="marquee-item" style="--c:#A47BF0">AI Tools</span><span class="marquee-item" style="--c:#2BB3BE">Automation</span><span class="marquee-item" style="--c:#F0A24A">Digital Products</span><span class="marquee-item" style="--c:#F0709A">Digital Marketing</span><span class="marquee-item" style="--c:#4FBF72">Social Media</span></div>
-    <div class="marquee-group"><span class="marquee-item" style="--c:#6B7CFF">Web Design</span><span class="marquee-item" style="--c:#A47BF0">AI Tools</span><span class="marquee-item" style="--c:#2BB3BE">Automation</span><span class="marquee-item" style="--c:#F0A24A">Digital Products</span><span class="marquee-item" style="--c:#F0709A">Digital Marketing</span><span class="marquee-item" style="--c:#4FBF72">Social Media</span><span class="marquee-item" style="--c:#6B7CFF">Web Design</span><span class="marquee-item" style="--c:#A47BF0">AI Tools</span><span class="marquee-item" style="--c:#2BB3BE">Automation</span><span class="marquee-item" style="--c:#F0A24A">Digital Products</span><span class="marquee-item" style="--c:#F0709A">Digital Marketing</span><span class="marquee-item" style="--c:#4FBF72">Social Media</span></div>
+    <div class="marquee-group"><span class="marquee-item" style="--c:#6B7CFF">Web Developer</span><span class="marquee-item" style="--c:#A47BF0">AI Tools</span><span class="marquee-item" style="--c:#2BB3BE">Automation</span><span class="marquee-item" style="--c:#F0A24A">Digital Products</span><span class="marquee-item" style="--c:#F0709A">Digital Marketing</span><span class="marquee-item" style="--c:#4FBF72">Social Media</span><span class="marquee-item" style="--c:#6B7CFF">Web Developer</span><span class="marquee-item" style="--c:#A47BF0">AI Tools</span><span class="marquee-item" style="--c:#2BB3BE">Automation</span><span class="marquee-item" style="--c:#F0A24A">Digital Products</span><span class="marquee-item" style="--c:#F0709A">Digital Marketing</span><span class="marquee-item" style="--c:#4FBF72">Social Media</span></div>
+    <div class="marquee-group"><span class="marquee-item" style="--c:#6B7CFF">Web Developer</span><span class="marquee-item" style="--c:#A47BF0">AI Tools</span><span class="marquee-item" style="--c:#2BB3BE">Automation</span><span class="marquee-item" style="--c:#F0A24A">Digital Products</span><span class="marquee-item" style="--c:#F0709A">Digital Marketing</span><span class="marquee-item" style="--c:#4FBF72">Social Media</span><span class="marquee-item" style="--c:#6B7CFF">Web Developer</span><span class="marquee-item" style="--c:#A47BF0">AI Tools</span><span class="marquee-item" style="--c:#2BB3BE">Automation</span><span class="marquee-item" style="--c:#F0A24A">Digital Products</span><span class="marquee-item" style="--c:#F0709A">Digital Marketing</span><span class="marquee-item" style="--c:#4FBF72">Social Media</span></div>
   </div>
 </div>
 
@@ -831,7 +830,7 @@ html.js .skill-card.in .chip, html.js .tools.in .tool { animation: toolin .5s cu
   <div class="wrap about-grid">
     <div class="about-copy reveal">
       <h2 id="about-title">About Me</h2>
-      <p>I'm a multidisciplinary digital professional interested in using technology to create useful, simple, and engaging digital experiences. My work spans website design, AI tools, automation, digital products, and digital marketing.</p>
+      <p>I'm a multidisciplinary digital professional interested in using technology to create useful, simple, and engaging digital experiences. My work spans web development, AI tools, automation, digital products, and digital marketing.</p>
       <p>I'm building my career around practical technology: websites people can use easily, AI tools that save time, automations that remove repetitive work, and digital products that are simple to find and use.</p>
       <a class="btn btn-ghost" href="#projects">View My Work</a>
     </div>
@@ -841,7 +840,7 @@ html.js .skill-card.in .chip, html.js .tools.in .tool { animation: toolin .5s cu
       <ul>
         <li>
           <span class="ico"><svg class="icon" aria-hidden="true"><use href="#i-layout"/></svg></span>
-          <span><strong>Web Design</strong><span class="d">Responsive sites and landing pages.</span></span>
+          <span><strong>Web Developer</strong><span class="d">Responsive sites and landing pages.</span></span>
         </li>
         <li>
           <span class="ico"><svg class="icon" aria-hidden="true"><use href="#i-sparkle"/></svg></span>
@@ -876,8 +875,8 @@ html.js .skill-card.in .chip, html.js .tools.in .tool { animation: toolin .5s cu
       <article class="skill-card wide reveal">
         <h3><svg class="icon" aria-hidden="true"><use href="#i-layout"/></svg>Web &amp; Design</h3>
         <ul class="chips">
-          <li class="chip">HTML</li><li class="chip">CSS</li><li class="chip">Responsive Web Design</li>
-          <li class="chip">UI/UX Principles</li><li class="chip">Landing Page Design</li><li class="chip">Website Design</li>
+          <li class="chip">HTML</li><li class="chip">CSS</li><li class="chip">Responsive Web Developer</li>
+          <li class="chip">UI/UX Principles</li><li class="chip">Landing Page Design</li><li class="chip">Web Development</li>
         </ul>
       </article>
 
@@ -952,14 +951,14 @@ html.js .skill-card.in .chip, html.js .tools.in .tool { animation: toolin .5s cu
           </div>
         </div>
         <div class="project-body">
-          <div class="project-meta"><span class="status">Concept</span><span data-category>AI / EdTech Technology</span></div>
-          <h3 data-title>Mentra</h3>
-          <p class="project-desc" data-desc>An AI-powered question-and-answer platform designed around conversational learning and easy access to useful answers.</p>
+          <div class="project-meta"><span class="status dev">In Development</span><span data-category>AI / EdTech Technology</span></div>
+          <h3 data-title>Mentra AI</h3>
+          <p class="project-desc" data-desc>An AI-powered learning companion built for tech lab students, designed to answer technical questions in context, walk through concepts conversationally, and give learners a faster path from confusion to understanding.</p>
           <ul class="chips" aria-label="Focus areas">
             <li class="chip">AI interface</li><li class="chip">Conversational UI</li><li class="chip">Dashboard design</li><li class="chip">Responsive</li>
           </ul>
           <ul class="focus" hidden>
-            <li>AI interface</li><li>Conversational UI</li><li>Dashboard design</li><li>Responsive experience</li>
+            <li>AI interface built for tech lab students</li><li>Conversational, context-aware answers</li><li>Dashboard design</li><li>Responsive experience</li>
           </ul>
           <span class="grow"></span>
           <button class="btn btn-primary" type="button" data-open aria-haspopup="dialog">View Project</button>
@@ -977,8 +976,8 @@ html.js .skill-card.in .chip, html.js .tools.in .tool { animation: toolin .5s cu
           <div class="shot-dots" role="group" aria-label="SunnahTibb screenshots"><button type="button" aria-label="Show home page screenshot" aria-pressed="true"></button><button type="button" aria-label="Show orders page screenshot" aria-pressed="false"></button><button type="button" aria-label="Show shopping cart screenshot" aria-pressed="false"></button></div>
         </div>
         <div class="project-body">
-          <div class="project-meta"><span class="status">Prototype</span><span data-category>E-commerce / Web Design</span></div>
-          <h3 data-title>SunnahTibb</h3>
+          <div class="project-meta"><span class="status dev">In Development</span><span data-category>E-commerce / Web Developer</span></div>
+          <h3 data-title>Sunnah Tibb Mart</h3>
           <p class="project-desc" data-desc>A modern e-commerce concept designed for an online wellness and natural-products store.</p>
           <ul class="chips" aria-label="Focus areas">
             <li class="chip">E-commerce interface</li><li class="chip">Product pages</li><li class="chip">Cart &amp; orders</li><li class="chip">Responsive design</li>
@@ -1026,7 +1025,7 @@ html.js .skill-card.in .chip, html.js .tools.in .tool { animation: toolin .5s cu
           </div>
         </div>
         <div class="project-body">
-          <div class="project-meta"><span class="status">Concept</span><span data-category>AI / Automation</span></div>
+          <div class="project-meta"><span class="status dev">In Development</span><span data-category>AI / Automation</span></div>
           <h3 data-title>AI Automation Workflow</h3>
           <p class="project-desc" data-desc>An automation concept connecting AI, content processing, and digital publishing workflows.</p>
           <ul class="chips" aria-label="Focus areas">
@@ -1059,14 +1058,17 @@ html.js .skill-card.in .chip, html.js .tools.in .tool { animation: toolin .5s cu
           </div>
         </div>
         <div class="project-body">
-          <div class="project-meta"><span class="status dev">In Development</span><span data-category>Mobile App / Puzzle Games</span></div>
+          <div class="project-meta"><span class="status dev">In Development</span><span data-category>Mobile App / Puzzle Games — General Audience</span></div>
           <h3 data-title>Hikmah Hunt</h3>
-          <p class="project-desc" data-desc>A mobile app featuring puzzles, crosswords and more.</p>
+          <p class="project-desc" data-desc>A mobile app for a general audience featuring crosswords, word search and scramble, trivia, riddles, and memory-style puzzles. Planned features include daily challenges, difficulty levels, points and badges, unlockable puzzle packs, score sharing, friend leaderboards, multiplayer challenges, hints, offline play, and light/dark mode.</p>
           <ul class="chips" aria-label="Focus areas">
-            <li class="chip">Mobile app</li><li class="chip">Puzzles</li><li class="chip">Crosswords</li>
+            <li class="chip">Puzzle variety</li><li class="chip">Daily challenges</li><li class="chip">Leaderboards</li><li class="chip">Accessibility</li>
           </ul>
           <ul class="focus" hidden>
-            <li>Mobile app experience</li><li>Puzzles</li><li>Crosswords</li>
+            <li>Puzzle variety: crosswords, word search, word scramble, trivia, riddles, memory games</li>
+            <li>Progression: daily streaks, difficulty levels, points/badges, unlockable packs</li>
+            <li>Social: score sharing, friend leaderboards, multiplayer challenges, invite-a-friend</li>
+            <li>Accessibility &amp; polish: hints, offline play, light/dark mode, adjustable text size</li>
           </ul>
           <span class="grow"></span>
           <button class="btn btn-primary" type="button" data-open aria-haspopup="dialog">View Project</button>
@@ -1109,7 +1111,7 @@ html.js .skill-card.in .chip, html.js .tools.in .tool { animation: toolin .5s cu
     <div class="services-grid">
       <article class="service lg reveal">
         <div class="ico"><svg class="icon" aria-hidden="true"><use href="#i-layout"/></svg></div>
-        <h3>Website Design</h3>
+        <h3>Web Development</h3>
         <p>Modern, responsive websites and landing pages for businesses, brands, and digital projects.</p>
       </article>
       <article class="service lg reveal" style="--d:.08s">
@@ -1151,6 +1153,11 @@ html.js .skill-card.in .chip, html.js .tools.in .tool { animation: toolin .5s cu
         <h3>Business Operations Associate</h3>
         <p class="tl-meta">Nuvanta Africa, Sept 2026 to present</p>
         <span class="tl-cat">Technology &amp; digital projects</span>
+      </article>
+      <article class="tl-item reveal" style="--d:.06s">
+        <h3>Virtual assistance <span class="tag-ph">Placeholder</span></h3>
+        <p class="tl-meta">Role title, client or organisation, dates</p>
+        <p>Add a short description of the tasks, tools and outcomes you can confirm.</p>
       </article>
       <article class="tl-item reveal" style="--d:.12s">
         <h3>Digital marketing &amp; social media <span class="tag-ph">Placeholder</span></h3>
@@ -1298,7 +1305,7 @@ html.js .skill-card.in .chip, html.js .tools.in .tool { animation: toolin .5s cu
           <label for="f-type">Project Type</label>
           <select id="f-type" name="type" required>
             <option value="" disabled selected>Choose a project type</option>
-            <option>Website design</option>
+            <option>Web development</option>
             <option>AI solution</option>
             <option>Automation</option>
             <option>Digital product</option>
@@ -1351,7 +1358,7 @@ html.js .skill-card.in .chip, html.js .tools.in .tool { animation: toolin .5s cu
         </ul>
       </div>
     </div>
-    <p class="copyright">&copy; 2026 Rodiyah Raji-Bola. All rights reserved.</p>
+    <p class="copyright">&copy; <span id="copyright-year">2026</span> Rodiyah Raji-Bola. All rights reserved.</p>
   </div>
 </footer>
 
@@ -1427,6 +1434,10 @@ const CONFIG = {
   });
   if (dark.addEventListener) dark.addEventListener("change", syncToggle);
   syncToggle();
+
+  /* ---------- Footer year (always current, no manual updates needed) ---------- */
+  var yearEl = document.getElementById("copyright-year");
+  if (yearEl) yearEl.textContent = new Date().getFullYear();
 
   /* ---------- Mobile menu ---------- */
   var menuBtn = document.querySelector(".menu-btn");
